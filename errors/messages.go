@@ -25,7 +25,7 @@ var NoAPIKeyMessage = `
 
 ` + wordwrap.WrapString("You can provide your API key by setting the FOSSA_API_KEY environment variable. For example, try running:", width) + `
 
-    ` + color.HiGreenString("FOSSA_API_KEY=<YOUR_API_KEY_HERE> $command") + `
+    ` + color.HiGreenString(setAPIKeyCommand) + `
 
 ` + wordwrap.WrapString("You can create an API key for your FOSSA account at:", width) + `
     
