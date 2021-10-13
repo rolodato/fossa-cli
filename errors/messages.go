@@ -23,13 +23,13 @@ var NoAPIKeyMessage = `
 
     ` + color.HiGreenString("fossa analyze --output") + `
 
-` + wordwrap.WrapString("You can provide your API key by setting the $FOSSA_API_KEY environment variable. For example, try running:", width) + `
+` + wordwrap.WrapString("You can provide your API key by setting the FOSSA_API_KEY environment variable. For example, try running:", width) + `
 
     ` + color.HiGreenString("FOSSA_API_KEY=<YOUR_API_KEY_HERE> $command") + `
 
 ` + wordwrap.WrapString("You can create an API key for your FOSSA account at:", width) + `
     
-    ` + color.HiBlueString("app.fossa.com/account/settings/integrations/api_tokens") + `
+    ` + color.HiBlueString("https://app.fossa.com/account/settings/integrations/api_tokens") + `
 
 `
 
